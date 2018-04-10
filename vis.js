@@ -13,7 +13,7 @@ var yScale = d3.scaleLinear()
 
 var z = d3.scaleOrdinal()
     // .range(["#ffffb3", "#bebada", "#8dd3c7", "#80b1d3", "#fdb462", "#b3de69", "#ffed6f", "#fb8072", "#bc80bd"]);
-    .range(['#1f77b4', '#2ca02c', '#9467bd', '#e377c2', '#7f7f7f', '#bcbd22', '#8c564b', '#ff7f0e', '#17becf']);
+    .range(['#1f77b4', '#2ca02c', '#9467bd', '#e377c2', '#7f7f7f', '#bcbd22', '#8c564b','#ffcc00', '#17becf']);
 var stack = d3.stack();
 
 var format = d3.format(",d");
